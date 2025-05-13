@@ -1,0 +1,12 @@
+(defrule Odd_number
+   (number ?n)
+   (test (neq (mod ?n 2) 0))
+   =>
+   (printout t "The number " ?n " is odd." crlf))
+
+(assert (number 2))
+(assert (number 5))
+(assert (number 8))
+(assert (number 7))
+
+(run)
