@@ -6,7 +6,5 @@
 
 (assert (number 2))
 (assert (number 5))
-(assert (number 8))
-(assert (number 7))
 
 (run)
